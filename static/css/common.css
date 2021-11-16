@@ -102,3 +102,9 @@
       opacity: 0;
   }
 }
+
+@media screen and (max-width: 415px) {
+  #form1 {
+    height: 1245px !important;
+  }
+}
