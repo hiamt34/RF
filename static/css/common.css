@@ -91,3 +91,14 @@
 .typed-cursor {
   display: none;
 }
+
+.styles_typicalWrapper__1_Uvh::after {
+  content: "|";
+  animation: styles_blink__2CKyC 1s infinite step-start;
+}
+
+@keyframes styles_blink__2CKyC {
+  50% {
+      opacity: 0;
+  }
+}
